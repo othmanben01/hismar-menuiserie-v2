@@ -3,13 +3,15 @@
   --border-radius: 12px;
   --primary-font-family: 'EB Garamond', serif;
   --secondary-font-family: 'Lato', sans-serif; 
-
+  --primary-color: 89, 39, 0, 1;
+  --luxurious-color: 164, 129, 17
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--secondary-font-family);
 }
 
 html,
@@ -21,4 +23,24 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: var(--primary-font-family);
+}
+
+.primary-color {
+  color: rgba(var(--primary-color)) !important;
+}
+
+.primary-background {
+  background-color: rgba(var(--primary-color)) !important;
+}
+
+.luxurious-color {
+  color: rgba(var(--luxurious-color)) !important;
+}
+
+.luxurious-background {
+  background-color: rgba(var(--luxurious-color)) !important;
 }
