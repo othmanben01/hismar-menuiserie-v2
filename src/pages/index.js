@@ -6,6 +6,7 @@ import Hero from "@/components/hero/hero";
 import Benefits from "@/components/benefits/benefits";
 import Services from "@/components/services/services";
 import SocialProof from "@/components/social-proof/social-proof";
+import Projects from "@/components/projects/projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Benefits />
         <Services />
         <SocialProof />
+        <Projects />
       </main>
     </>
   );
