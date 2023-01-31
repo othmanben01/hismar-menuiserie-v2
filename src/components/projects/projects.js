@@ -3,7 +3,7 @@ import Image from "next/image";
 import Palais from "../../../images/palais-claudio-bravo.jpg";
 
 const Projects = () => (
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
+  <div class="px-4 pt-5 my-5 text-center">
     <h1 class="display-4 fw-bold">Palace Claudio Bravo</h1>
     <div class="col-lg-6 mx-auto">
       <p class="mb-4">
