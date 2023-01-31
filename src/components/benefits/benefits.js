@@ -83,7 +83,7 @@ const Benefits = () => (
     </h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       {content?.map((item) => (
-        <div class="feature col">
+        <div class="socal-proof col">
           <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
           <h3 class="primary-color fs-2 mk-color-primary ">{item?.title}</h3>
           <p>{item?.description}</p>
