@@ -8,6 +8,7 @@ import Services from "@/components/services/services";
 import SocialProof from "@/components/social-proof/social-proof";
 import Projects from "@/components/projects/projects";
 import Faq from "@/components/faq/faq";
+import Contact from "@/components/contact/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function Home() {
         <SocialProof />
         <Projects />
         <Faq />
+        <Contact />
       </main>
     </>
   );
