@@ -24,7 +24,7 @@ const Hero = () => (
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button
             type="button"
-            className="luxurious-background rounded-0 btn btn-primary btn-lg px-4 me-md-2 mk-bg-primary luxury-color border-0 no-border-radius "
+            className="luxurious-background rounded-0 border-0 btn btn-primary btn-lg px-4 me-md-2 mk-bg-primary luxury-color border-0 no-border-radius "
           >
             {content.cta}
           </button>
