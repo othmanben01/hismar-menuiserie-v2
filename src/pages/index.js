@@ -9,6 +9,9 @@ import SocialProof from "@/components/social-proof/social-proof";
 import Projects from "@/components/projects/projects";
 import Faq from "@/components/faq/faq";
 import Contact from "@/components/contact/contact";
+import FounderNote from "@/components/founder-note/founder-note";
+import Footer from "@/components/footer/footer";
+import Navbar from "@/components/navbar/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,13 +25,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Navbar />
         <Hero />
         <Benefits />
         <Services />
         <SocialProof />
         <Projects />
         <Faq />
+        <FounderNote />
         <Contact />
+        <Footer />
       </main>
     </>
   );

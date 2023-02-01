@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="container px-4 py-5">
         <h2 className="primary-color fs-1 pb-2 border-bottom">Contact Us</h2>
         <Form className="py-5" onSubmit={handleSubmit}>

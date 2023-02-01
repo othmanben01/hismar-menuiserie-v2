@@ -38,7 +38,7 @@ const content = [
 ];
 
 const Faq = () => (
-  <section className="container px-4 py-5">
+  <section className="container px-4 py-5" id="faq">
     <h3 class="primary-color fs-1 pb-2 border-bottom">FAQ</h3>
     <p class="primary-color fs-6 pb-2">Questions fréquemment posées</p>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">

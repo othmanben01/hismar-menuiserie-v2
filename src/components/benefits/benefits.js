@@ -34,12 +34,6 @@ let content = [
 content = [
   {
     id: 1,
-    title: "Technologie avancée et expertise en ingénierie",
-    description:
-      "Nous utilisons une technologie avancée et une expertise en ingénierie pour nous assurer que la meilleure combinaison d'espèces de bois est utilisée pour chaque projet, en fonction des propriétés mécaniques du bois.",
-  },
-  {
-    id: 1,
     title: "Produits de haute qualité et de luxe",
     description:
       "Notre équipe de professionnels est dédiée à la livraison de produits de haute qualité et bien conçus qui répondent aux besoins spécifiques de nos clients.",
@@ -67,6 +61,12 @@ content = [
     title: "Personnalisation",
     description:
       "Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et préférences spécifiques, et adapter nos produits en conséquence.",
+  },
+  {
+    id: 1,
+    title: "Technologie avancée et expertise en ingénierie",
+    description:
+      "Nous utilisons une technologie avancée et une expertise en ingénierie pour nous assurer que la meilleure combinaison d'espèces de bois est utilisée pour chaque projet, en fonction des propriétés mécaniques du bois.",
   },
   {
     id: 7,
