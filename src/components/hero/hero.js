@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LivingRoomMajestic1Image from "../../../images/living-room-majestic-1.jpeg";
+import Logo from "../../../images/logo.png";
 
 const content = {
   title: "Libérez la beauté et la durabilité du bois avec Hismar",
@@ -10,6 +11,45 @@ const content = {
 
 const Hero = () => (
   <section class="container col-xxl-8 px-4 py-5">
+    <div className="primary-background p-5" style={{ textAlign: "center" }}>
+      <div style={{ width: "60px", height: "60px" }}>
+        <Image
+          src={Logo}
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+        />
+      </div>
+      <h1 className=" mb-0">
+        Hismar {/* <span className="">M</span>enuiserie */}
+      </h1>
+      <h1 className=" mb-0">
+        {/* <span className="">H</span>ismar{" "} */}
+        Menuiserie
+      </h1>
+      <h6 className="">Luxueusement sur mesure depuis 1968</h6>
+    </div>
+    <div className="p-5" style={{ textAlign: "center", background: "black" }}>
+      <h1 className="primary-color mb-0">
+        Hismar
+        {/* <span className="primary-color">M</span>enuiserie */}
+      </h1>
+      <h1 className="primary-color mb-0">
+        {/* <span className="primary-color">H</span>ismar{" "} */}
+        Menuiserie
+      </h1>
+      <h6 className="primary-color">Luxueusement sur mesure depuis 1968</h6>
+    </div>
+    <div className="p-5" style={{ textAlign: "center" }}>
+      <h1 className="primary-color mb-0">
+        <span className="primary-color">H</span>ismar{" "}
+        {/* <span className="primary-color">M</span>enuiserie */}
+      </h1>
+      <h1 className="primary-color mb-0">
+        {/* <span className="primary-color">H</span>ismar{" "} */}
+        <span className="primary-color">M</span>enuiserie
+      </h1>
+      <h6 className="primary-color">Luxueusement sur mesure depuis 1968</h6>
+    </div>
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div className="col-lg-6">
         <Image
