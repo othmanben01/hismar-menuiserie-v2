@@ -25,14 +25,14 @@ const Hero = () => (
         </h1>
         <p class="lead text-justify">{content.description}</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a
+          <button
             type="button"
             href="tel:+212662177069"
             className="primary-background rounded-0 border-0 btn btn-primary btn-lg px-4 me-md-2 mk-bg-primary luxury-color border-0 no-border-radius "
           >
             {content.cta}
             <p className="fs-6">06 62 17 70 69</p>
-          </a>
+          </button>
           {/* <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> */}
         </div>
       </div>
