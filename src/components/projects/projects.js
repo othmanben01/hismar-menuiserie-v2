@@ -47,9 +47,13 @@ const Projects = () => (
         {/* <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
           Primary button
         </button> */}
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+        <a
+          type="button"
+          href="tel:+212662177069"
+          class="btn btn-outline-secondary btn-lg px-4"
+        >
           Prenez votre rendez vous
-        </button>
+        </a>
       </div>
     </div>
     <div class="overflow-hidden" style={{ maxHeight: "50vh" }}>
