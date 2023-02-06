@@ -3,10 +3,10 @@ import Image from "next/image";
 import Palais from "../../../images/palais-claudio-bravo.jpg";
 
 const Projects = () => (
-  <div class="px-4 pt-5 my-5 text-center" id="projects">
-    <h1 class="primary-color display-4">Palace Claudio Bravo</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="mb-4">
+  <div className="px-4 pt-5 my-5 text-center" id="projects">
+    <h1 className="primary-color display-4">Palace Claudio Bravo</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="mb-4">
         Il était une fois, Hismar Menuiserie Plan a été approché par l'artiste
         renommé Claudio Bravo pour travailler sur un projet spécial: la
         rénovation de son palais au Maroc. Le palais, un magnifique exemple
@@ -43,24 +43,24 @@ const Projects = () => (
         Claudio Bravo était ravi du produit final et heureux d'avoir Hismar
         comme partenaire dans ce projet.
       </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        {/* <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        {/* <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">
           Primary button
         </button> */}
         <a
           type="button"
           href="tel:+212662177069"
-          class="btn btn-outline-secondary btn-lg px-4"
+          className="btn btn-outline-secondary btn-lg px-4"
         >
           Prenez votre rendez vous
         </a>
       </div>
     </div>
-    <div class="overflow-hidden" style={{ maxHeight: "50vh" }}>
-      <div class="container px-5">
+    <div className="overflow-hidden" style={{ maxHeight: "50vh" }}>
+      <div className="container px-5">
         {/* <img
           src="bootstrap-docs.png"
-          class="img-fluid border rounded-3 shadow-lg mb-4"
+          className="img-fluid border rounded-3 shadow-lg mb-4"
           alt="Example image"
           width="700"
           height="500"
@@ -68,7 +68,7 @@ const Projects = () => (
         /> */}
         <Image
           src={Palais}
-          class="img-fluid border rounded-3 shadow-lg mb-4"
+          className="img-fluid border rounded-3 shadow-lg mb-4"
           alt="Example image"
           width="700"
           height="500"

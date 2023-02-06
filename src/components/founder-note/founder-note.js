@@ -1,15 +1,17 @@
 const FounderNote = () => (
-  <section class="container px-4 py-5 founder-note">
-    <h2 class="primary-color fs-1 pb-2 border-bottom">Une Note du Co-Gérant</h2>
-    <div class="row g-4 py-5">
-      <div class="col-md-2">
+  <section className="container px-4 py-5 founder-note">
+    <h2 className="primary-color fs-1 pb-2 border-bottom">
+      Une Note du Co-Gérant
+    </h2>
+    <div className="row g-4 py-5">
+      <div className="col-md-2">
         {/* <img
         src="founder-photo.jpg"
-        class="img-fluid"
+        className="img-fluid"
         alt="Founder's photo"
       /> */}
       </div>
-      <div class="col-md-10">
+      <div className="col-md-10">
         <p>
           Bonjour, je suis Othman Ben bouazza, et je suis le co-gérant de Hismar
           Menuiserie. J'ai intégré cette entreprise bien établie et solidement

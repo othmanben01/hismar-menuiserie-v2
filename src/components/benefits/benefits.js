@@ -34,27 +34,33 @@ let content = [
 content = [
   {
     id: 1,
+    title: "Expérience",
+    description:
+      "Avec plus de 55 ans d'expérience dans les affaires, nous avons l'expérience et l'expertise pour gérer tout projet de menuiserie, petit ou grand.",
+  },
+  {
+    id: 2,
     title: "Produits de haute qualité et de luxe",
     description:
       "Notre équipe de professionnels est dédiée à la livraison de produits de haute qualité et bien conçus qui répondent aux besoins spécifiques de nos clients.",
   },
   {
     id: 3,
-    title: "Engagement envers la discipline, la ponctualité et l'honnêteté",
-    description:
-      "Nous nous engageons à la discipline, à la ponctualité et à l'honnêteté dans tout ce que nous faisons, ce qui garantit que vous serez entièrement satisfait du produit final.",
-  },
-  {
-    id: 4,
     title: "Respect des délais",
     description:
       "Nous comprenons que le temps est essentiel, c'est pourquoi nous nous engageons à livrer votre projet à temps, sans compromettre la qualité.",
   },
   {
-    id: 5,
-    title: "Expérience",
+    id: 4,
+    title: "Réputation",
     description:
-      "Avec plus de 55 ans d'expérience dans les affaires, nous avons l'expérience et l'expertise pour gérer tout projet de menuiserie, petit ou grand.",
+      "Nous avons une forte réputation de livrer des produits de luxe qui sont conçus pour durer, et une équipe de professionnels qui sont dédiés à fournir le meilleur service possible à nos clients.",
+  },
+  {
+    id: 5,
+    title: "Engagement envers la discipline, la ponctualité et l'honnêteté",
+    description:
+      "Nous nous engageons à la discipline, à la ponctualité et à l'honnêteté dans tout ce que nous faisons, ce qui garantit que vous serez entièrement satisfait du produit final.",
   },
   {
     id: 6,
@@ -63,29 +69,25 @@ content = [
       "Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et préférences spécifiques, et adapter nos produits en conséquence.",
   },
   {
-    id: 1,
+    id: 7,
     title: "Technologie avancée et expertise en ingénierie",
     description:
       "Nous utilisons une technologie avancée et une expertise en ingénierie pour nous assurer que la meilleure combinaison d'espèces de bois est utilisée pour chaque projet, en fonction des propriétés mécaniques du bois.",
   },
-  {
-    id: 7,
-    title: "Réputation",
-    description:
-      "Nous avons une forte réputation de livrer des produits de luxe qui sont conçus pour durer, et une équipe de professionnels qui sont dédiés à fournir le meilleur service possible à nos clients.",
-  },
 ];
 
 const Benefits = () => (
-  <div class="container px-4 py-5" id="benefits">
-    <h2 class="primary-color fs-1 pb-2 border-bottom">
+  <div className="container px-4 py-5" id="benefits">
+    <h2 className="primary-color fs-1 pb-2 border-bottom">
       Les avantages de choisir Hismar Menuiserie
     </h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
       {content?.map((item) => (
-        <div class="benefit col">
-          <div class="benefit-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
-          <h3 class="primary-color fs-2 mk-color-primary ">{item?.title}</h3>
+        <div key={item.id} className="benefit col">
+          <div className="benefit-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
+          <h3 className="primary-color fs-2 mk-color-primary ">
+            {item?.title}
+          </h3>
           <p>{item?.description}</p>
         </div>
       ))}

@@ -3,7 +3,7 @@
         <div style={{ width: "60px", height: "60px" }}>
           <Image
             src={Logo}
-            class="d-block mx-lg-auto img-fluid"
+            className="d-block mx-lg-auto img-fluid"
             alt="Bootstrap Themes"
           />
         </div>
