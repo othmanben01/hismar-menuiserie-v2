@@ -26,13 +26,13 @@ const content = [
 ];
 
 const Services = () => (
-  <section class="container px-4 py-5" id="services">
-    <h2 class="primary-color fs-1 pb-2 border-bottom">Nos Services</h2>
+  <section className="container px-4 py-5" id="services">
+    <h2 className="primary-color fs-1 pb-2 border-bottom">Nos Services</h2>
 
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
       {content?.map((item) => (
-        <div class="service col">
-          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
+        <div key={item.id} className="service col">
+          <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"></div>
           {/* <img src="carpentry-icon.svg" alt="Carpentry" /> */}
           <h3 className="primary-color fs-2 mk-color-primary">{item.title}</h3>
           <p>{item.description}</p>

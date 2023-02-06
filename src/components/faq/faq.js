@@ -39,13 +39,13 @@ const content = [
 
 const Faq = () => (
   <section className="container px-4 py-5" id="faq">
-    <h3 class="primary-color fs-1 pb-2 border-bottom">FAQ</h3>
-    <p class="primary-color fs-6 pb-2">Questions fréquemment posées</p>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <h3 className="primary-color fs-1 pb-2 border-bottom">FAQ</h3>
+    <p className="primary-color fs-6 pb-2">Questions fréquemment posées</p>
+    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
       {content?.map((item) => (
-        <div class="col-md-6 col-lg-4 mb-4">
-          <h6 class="primary-color mb-3">
-            {/* <i class="far fa-paper-plane text-primary pe-2"></i> */}
+        <div key={item.id} className="col-md-6 col-lg-4 mb-4">
+          <h6 className="primary-color mb-3">
+            {/* <i className="far fa-paper-plane text-primary pe-2"></i> */}
             {item?.title}
           </h6>
           <p>
