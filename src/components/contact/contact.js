@@ -67,7 +67,8 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      }).then(() => gtag_report_conversion());
+      });
+      // .then(() => gtag_report_conversion());
     }
   };
 

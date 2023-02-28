@@ -11,8 +11,23 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lato:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-        <Script>
-          {`function gtag_report_conversion(url) {
+        {/* Google tag (gtag.js)
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-703044095"
+        ></Script>
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-703044095');`,
+          }}
+        ></Script> */}
+
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `function gtag_report_conversion(url) {
             var callback = function () {
               if (typeof(url) != 'undefined') {
                 window.location = url;
@@ -23,8 +38,9 @@ export default function Document() {
                 'event_callback': callback
             });
             return false;
-          }`}
-        </Script>
+          }`,
+          }}
+        />
       </Head>
       <body>
         <Main />
