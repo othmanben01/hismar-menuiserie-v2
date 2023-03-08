@@ -13,7 +13,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lato:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-
+        {/* Google Indexation */}
+        <meta
+          name="google-site-verification"
+          content="FlI4d3uzHTm3lN3opNuC0VzG3VJvTQ1rzfoE_oM_rXo"
+        />
         {/* Google tag (gtag.js)  */}
         <script
           async
