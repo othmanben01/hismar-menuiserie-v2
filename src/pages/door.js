@@ -5,7 +5,7 @@ const Door = () => {
     dataLayer.push({ productCategory: "door" });
   }, []);
 
-  return <section className="container col-xxl-8 px-4 py-5 "></section>;
+  return <section className="container col-xxl-8 px-4 py-5 ">Door</section>;
 };
 
 export default Door;
