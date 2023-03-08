@@ -19,10 +19,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hismar Menuiserie: Luxueusement sur mesure depuis 1968.</title>
+        <title>
+          Hismar Menuiserie Bois: Luxueusement bois sur mesure depuis 1968.
+        </title>
         <meta
           name="description"
-          content="Hismar Carpentry est une entreprise de menuiserie sur mesure. Nous
+          content="Hismar Menuiserie est une entreprise de menuiserie bois bois sur mesure. Nous
               fournissons des produits et services de menuiserie de haute
               qualité à nos clients en utilisant notre expertise et une équipe de
               professionnels dédiés à la discipline, la ponctualité et

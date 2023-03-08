@@ -14,7 +14,7 @@
           {/* <span className="">H</span>ismar{" "} */}
           Menuiserie
         </h1>
-        <h6 className="">Luxueusement sur mesure depuis 1968</h6>
+        <h6 className="">Luxueusement bois sur mesure depuis 1968</h6>
       </div>
       <div className="p-5" style={{ textAlign: "center", background: "black" }}>
         <h1 className="primary-color mb-0">
@@ -25,7 +25,7 @@
           {/* <span className="primary-color">H</span>ismar{" "} */}
           Menuiserie
         </h1>
-        <h6 className="primary-color">Luxueusement sur mesure depuis 1968</h6>
+        <h6 className="primary-color">Luxueusement bois sur mesure depuis 1968</h6>
       </div>
       <div className="p-5" style={{ textAlign: "center" }}>
         <h1 className="primary-color mb-0">
@@ -36,7 +36,7 @@
           {/* <span className="primary-color">H</span>ismar{" "} */}
           <span className="primary-color">M</span>enuiserie
         </h1>
-        <h6 className="primary-color">Luxueusement sur mesure depuis 1968</h6>
+        <h6 className="primary-color">Luxueusement bois sur mesure depuis 1968</h6>
       </div>
     </div>
     

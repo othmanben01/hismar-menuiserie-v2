@@ -3,7 +3,7 @@ const content = [
     id: 1,
     title: "Quels types de services de menuiserie Hismar propose-t-il?",
     description:
-      "Hismar se spécialise dans les services de menuiserie sur mesure. Nous offrons également des services de conception et d'ingénierie pour garantir que la meilleure combinaison d'espèces de bois est utilisée pour chaque projet en fonction des propriétés mécaniques du bois.",
+      "Hismar se spécialise dans les services de menuiserie bois sur mesure. Nous offrons également des services de conception et d'ingénierie pour garantir que la meilleure combinaison d'espèces de bois est utilisée pour chaque projet en fonction des propriétés mécaniques du bois.",
   },
   {
     id: 2,

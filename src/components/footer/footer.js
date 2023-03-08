@@ -9,10 +9,10 @@ const Footer = () => (
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 className="text-uppercase fw-bold mb-4">Hismar Menuiserie</h6>
             <p style={{ textAlign: "justify" }}>
-              Hismar Menuiserie est une entreprise de menuiserie sur mesure.
-              Nous fournissons des produits et services de menuiserie de haute
-              qualité à nos clients en utilisant l'expertise et une équipe de
-              professionnels dédiés à la discipline, la ponctualité et
+              Hismar Menuiserie est une entreprise de menuiserie bois sur
+              mesure. Nous fournissons des produits et services de menuiserie de
+              haute qualité à nos clients en utilisant l'expertise et une équipe
+              de professionnels dédiés à la discipline, la ponctualité et
               l'honnêteté dans tout ce que nous faisons. Notre objectif est
               celui de maintenir notre réputation en tant que partenaire
               commercial fiable et digne de confiance.

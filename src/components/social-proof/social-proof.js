@@ -2,7 +2,7 @@ const content = [
   {
     id: 1,
     description:
-      "Hismar a dépassé toutes nos attentes. Le savoir-faire sur notre cuisine sur mesure est vraiment époustouflant et nous ne pourrions pas être plus heureux avec le produit final. L'équipe était professionnelle et ponctuelle tout au long du processus.",
+      "Hismar a dépassé toutes nos attentes. Le savoir-faire sur notre cuisine bois sur mesure est vraiment époustouflant et nous ne pourrions pas être plus heureux avec le produit final. L'équipe était professionnelle et ponctuelle tout au long du processus.",
     nom: "Amine et Amal Berrada",
   },
   {
@@ -14,7 +14,7 @@ const content = [
   {
     id: 3,
     description:
-      "Nous avions besoin d'un travail de menuiserie sur mesure pour notre hôtel, Hismar était la solution idéale pour nous. L'équipe était très professionnelle et le produit final a dépassé nos attentes. Nous recommandons fortement Hismar pour tout travail de menuiserie.",
+      "Nous avions besoin d'un travail de menuiserie bois sur mesure pour notre hôtel, Hismar était la solution idéale pour nous. L'équipe était très professionnelle et le produit final a dépassé nos attentes. Nous recommandons fortement Hismar pour tout travail de menuiserie.",
     nom: "Directeur Hotel 5 stars",
   },
 ];

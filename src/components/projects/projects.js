@@ -24,7 +24,7 @@ const Projects = () => (
         L'équipe Hismar, dirigée par notre fondateur Kacem Ben bouazza, a
         travaillé en étroite collaboration avec Claudio Bravo et son équipe
         d'architectes et d'ingénieurs pour concevoir et construire des armoires
-        sur mesure, des meubles et des moulures qui compléteraient
+        bois sur mesure, des meubles et des moulures qui compléteraient
         l'architecture traditionnelle du palais tout en y apportant une
         fonctionnalité moderne.
       </p>

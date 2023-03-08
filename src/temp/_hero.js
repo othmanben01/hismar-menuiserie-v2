@@ -40,7 +40,7 @@ const Hero = () => (
 export default Hero;
 
 // const content = {
-//   title: "Menuiserie Bois Sur Mesure depuis 1968.",
+//   title: "Menuiserie Bois bois sur mesure depuis 1968.",
 //   description:
 //     "Depuis notre création en 1968, hismar à pu dévolopper une approche révolutionaire de la menuiserie. Vous pouvez conpter sur la qualité supérieur Du Maroc jusqu'au congo, nous avons",
 //   cta: "Faites le premier pas vers votre projet de rêve",

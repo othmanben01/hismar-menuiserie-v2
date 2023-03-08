@@ -3,7 +3,7 @@ const content = [
     id: 1,
     title: "Menuiserie",
     description:
-      "Nous nous spécialisons dans les travaux de menuiserie sur mesure pour les projets résidentiels et commerciaux. Notre équipe d'artisans qualifiés possède une grande expérience dans la création de meubles sur mesure, de placards et de boiseries.",
+      "Nous nous spécialisons dans les travaux de menuiserie bois sur mesure pour les projets résidentiels et commerciaux. Notre équipe d'artisans qualifiés possède une grande expérience dans la création de meubles bois sur mesure, de placards et de boiseries.",
   },
   {
     id: 2,

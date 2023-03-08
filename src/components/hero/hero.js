@@ -28,6 +28,7 @@ const Hero = () => (
           <a
             type="button"
             href="tel:+212662177069"
+            id="phone-call-1"
             className="primary-background rounded-0 border-0 btn btn-primary btn-lg px-4 me-md-2 mk-bg-primary luxury-color border-0 no-border-radius "
             style={{ width: "100%" }}
           >
@@ -44,7 +45,7 @@ const Hero = () => (
 export default Hero;
 
 // const content = {
-//   title: "Menuiserie Bois Sur Mesure depuis 1968.",
+//   title: "Menuiserie Bois bois sur mesure depuis 1968.",
 //   description:
 //     "Depuis notre création en 1968, hismar à pu dévolopper une approche révolutionaire de la menuiserie. Vous pouvez conpter sur la qualité supérieur Du Maroc jusqu'au congo, nous avons",
 //   cta: "Faites le premier pas vers votre projet de rêve",
