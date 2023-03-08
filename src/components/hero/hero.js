@@ -17,6 +17,8 @@ const Hero = () => (
           src={LivingRoomMajestic1Image}
           className="d-block mx-lg-auto img-fluid"
           alt="Bootstrap Themes"
+          layout="responsive"
+          loading="lazy"
         />
       </div>
       <div className="col-lg-6">
