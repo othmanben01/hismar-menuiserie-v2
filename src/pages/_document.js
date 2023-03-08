@@ -19,18 +19,18 @@ export default function Document() {
           content="FlI4d3uzHTm3lN3opNuC0VzG3VJvTQ1rzfoE_oM_rXo"
         />
         {/* Google tag (gtag.js)  */}
-        <script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${GMT_ID}`}
         />
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', ${GMT_ID});`,
           }}
-        ></script>
+        ></Script>
         {/* Google tag (gtag.js) end */}
         {/* <Script
           dangerouslySetInnerHTML={{
