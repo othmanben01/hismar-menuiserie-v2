@@ -44,7 +44,7 @@ export default function Home() {
         <Projects />
         <Faq />
         <FounderNote />
-        {/* <Contact /> */}
+        <Contact />
         <Footer />
       </main>
     </>
