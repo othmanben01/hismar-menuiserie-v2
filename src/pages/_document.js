@@ -20,17 +20,18 @@ export default function Document() {
         />
         {/* Google tag (gtag.js)  */}
         <Script
-          async
           src={`https://www.googletagmanager.com/gtag/js?id=${GMT_ID}`}
+          strategy="afterInteractive"
         />
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', ${GMT_ID});`,
-          }}
-        ></Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${GMT_ID}');
+        `}
+        </Script>
         {/* Google tag (gtag.js) end */}
         {/* <Script
           dangerouslySetInnerHTML={{
