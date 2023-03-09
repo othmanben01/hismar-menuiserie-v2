@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Hismar Menuiserie Bois: Luxueusement bois sur mesure depuis 1968.
+          Hismar Menuiserie Bois: Luxueusement sur mesure depuis 1968.
         </title>
         <meta
           name="description"
