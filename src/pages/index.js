@@ -24,7 +24,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Hismar Menuiserie est une entreprise de menuiserie bois bois sur mesure. Nous
+          content="Hismar Menuiserie est une entreprise de menuiserie bois sur mesure. Nous
               fournissons des produits et services de menuiserie de haute
               qualité à nos clients en utilisant notre expertise et une équipe de
               professionnels dédiés à la discipline, la ponctualité et
