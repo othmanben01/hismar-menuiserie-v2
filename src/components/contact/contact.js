@@ -34,6 +34,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    console.log("Submitted");
     let isError = false;
     if (!formData.name) {
       setError({ ...error, name: "Name is required" });
@@ -68,7 +69,6 @@ const Contact = () => {
         },
         body: JSON.stringify(formData),
       });
-      // .then(() => gtag_report_conversion());
     }
   };
 
